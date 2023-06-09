@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitHub Repo List
+
+This project is a GitHub repository list created with Next.js.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow the steps below:
 
-```bash
+1. Clone the repository.
+
+2. Navigate to the project directory.
+
+3. Install the required dependencies by running the following command:
+
+
+npm install
+
+This command will install the necessary dependencies for the project.
+
+4. Configure environment variables.
+
+- Create a `.env.local` file in the root directory.
+- Add the following environment variable to the file:
+
+  ```
+  NEXT_PUBLIC_GITHUB_API_TOKEN=<your-github-api-token>
+  ```
+
+  Replace `<your-github-api-token>` with your personal GitHub API token. This token is required to access the GitHub API for fetching repository data.
+
+5. Run the development server by executing the following command:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This command will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to see the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+6. Start exploring!
+
+## Dependencies
+
+The project relies on the following dependencies:
+
+- React: ^17.0.2
+- Framer Motion: ^4.1.17
+- Axios: ^0.24.0
+- Next.js: ^12.0.7
+- Next Images: ^1.8.2
+
+Please make sure to have these dependencies installed before running the project.
+
+## Usage
+
+Once the project is up and running, you can enter a GitHub username in the input field and click the search button to fetch and display the user's repositories. The repositories will be shown in an animated list, with each item displaying the repository name and a link to open the repository on GitHub.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js Documentation: https://nextjs.org/docs
+- Learn Next.js: https://nextjs.org/learn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can also check out the Next.js GitHub repository for more information and contribute to the project.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js. For more details, refer to the Next.js deployment documentation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
