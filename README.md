@@ -15,19 +15,6 @@ To get started with this project, follow the steps below:
 
 npm install
 
-This command will install the necessary dependencies for the project.
-
-4. Configure environment variables.
-
-- Create a `.env.local` file in the root directory.
-- Add the following environment variable to the file:
-
-  ```
-  NEXT_PUBLIC_GITHUB_API_TOKEN=<your-github-api-token>
-  ```
-
-  Replace `<your-github-api-token>` with your personal GitHub API token. This token is required to access the GitHub API for fetching repository data.
-
 5. Run the development server by executing the following command:
 
 npm run dev
