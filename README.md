@@ -46,6 +46,7 @@ The project relies on the following dependencies:
 - Axios: ^0.24.0
 - Next.js: ^12.0.7
 - Next Images: ^1.8.2
+- TailwindsCss
 
 Please make sure to have these dependencies installed before running the project.
 
